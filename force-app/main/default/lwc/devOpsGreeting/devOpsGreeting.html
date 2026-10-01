@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="DevOps Greeting" icon-name="standard:announcement">
+        <div class="greeting-container">
+            <h2>{message}</h2>
+            <p>Deployed using GitHub and Copado Essentials.</p>
+            <lightning-button
+                label="Change Greeting"
+                variant="brand"
+                onclick={handleGreetingChange}>
+            </lightning-button>
+        </div>
+    </lightning-card>
+</template>
